@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image_major {
+    width: 100vw;
+}
+
+.container__child__body {
+    padding-left: 30px;
+    padding-right: 25px;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    color: hsl(234, 29%, 20%);
+    font-weight: 700;
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.paragraph {
+    font-family: 'Roboto';
+    color: hsl(234, 29%, 20%);
+    margin-bottom: 20px;
+}
+
+.text_icon {
+    font-family: 'Roboto';
+    color: hsl(234, 29%, 20%);
+}
+
+.list {
+    list-style: none;
+}
+
+.item_list {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.img_icon_list {
+    width: 25px;
+}
