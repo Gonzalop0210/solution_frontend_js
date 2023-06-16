@@ -46,3 +46,39 @@
 .img_icon_list {
     width: 25px;
 }
+
+.container__child__body__form {
+    margin-top: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text_form {
+    font-family: 'Roboto';
+    color: hsl(234, 29%, 20%);
+    font-weight: 700;
+}
+
+.input_text_form {
+    border: 2px solid hsl(231, 7%, 60%);
+    padding: 20px 20px 20px 30px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    color: hsl(231, 7%, 60%);
+}
+
+.input_text_form::placeholder {
+    color: hsl(231, 7%, 60%);
+}
+
+.boton_form {
+    padding: 20px;
+    color: #FFF;
+    background-color: hsl(234, 29%, 20%);
+    border-radius: 10px;
+    font-size: 1.2em;
+}
