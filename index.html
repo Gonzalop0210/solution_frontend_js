@@ -14,28 +14,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <img src="assets/images/illustration-sign-up-mobile.svg" alt="imagen Mobile" class="image_major">
-    <div class="container__child__body">
-        <h1 class="title">Stay updated!</h1>
-        <p class="paragraph">Join 60,000+ product managers receiving monthly updates on:</p>
-        <ul class="list">
-            <li class="item_list"><img class="img_icon_list" src="assets/images/icon-success.svg" alt="image">
-                <p class="text_icon">Product discovery and building what matters</p>
-            </li>
-            <li class="item_list"><img class="img_icon_list" src="assets/images/icon-success.svg" alt="image">
-                <p class="text_icon">Measuring to ensure upadtes are a success</p>
-            </li>
-            <li class="item_list"><img class="img_icon_list" src="assets/images/icon-success.svg" alt="image">
-                <p class="text_icon">And much more!</p>
-            </li>
-        </ul>
+    <img src="assets/images/illustration-sign-up-mobile.svg" alt="imagen Mobile" class="image_major image_major_mobile">
+    <img src="assets/images/illustration-sign-up-desktop.svg" alt="imagen desktop" class="image_major image_major_desktop">
+    <div class="container_child_body_container">
+        <div class="container__child__body">
+            <h1 class="title">Stay updated!</h1>
+            <p class="paragraph">Join 60,000+ product managers receiving monthly updates on:</p>
+            <ul class="list">
+                <li class="item_list"><img class="img_icon_list" src="assets/images/icon-success.svg" alt="image">
+                    <p class="text_icon">Product discovery and building what matters</p>
+                </li>
+                <li class="item_list"><img class="img_icon_list" src="assets/images/icon-success.svg" alt="image">
+                    <p class="text_icon">Measuring to ensure upadtes are a success</p>
+                </li>
+                <li class="item_list"><img class="img_icon_list" src="assets/images/icon-success.svg" alt="image">
+                    <p class="text_icon">And much more!</p>
+                </li>
+            </ul>
+        </div>
+        <div class="container__child__body container__child__body__form">
+            <form class="form">
+                <div class="container_labels">
+                    <label class="text_form">Email address</label>
+                    <label class="text_error no_view">Valid email required</label>
+                </div>
+                <input type="text" name="" id="" class="input_text_form" placeholder="email@company.com">
+                <input type="submit" value="Subscribe to monthly newsletter" class="boton_form">
+            </form>
+        </div>
     </div>
-    <div class="container__child__body container__child__body__form">
-        <form class="form">
-            <label class="text_form">Email address</label>
-            <input type="text" name="" id="" class="input_text_form" placeholder="email@company.com">
-            <input type="submit" value="Subscribe to monthly newsletter" class="boton_form">
-        </form>
-    </div>
+    <script src="js/main.js"></script>
 </body>
 </html>

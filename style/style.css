@@ -82,4 +82,61 @@
     background-color: hsl(234, 29%, 20%);
     border-radius: 10px;
     font-size: 1.2em;
+    transition: .5s;
+}
+
+.boton_form:hover {
+    background-color: hsl(234, 37%, 42%);
+    cursor: pointer;
+}
+
+.image_major_desktop {
+    display: none;
+}
+
+.container_labels {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_error {
+    font-family: 'Roboto';
+    color: hsl(4, 100%, 67%);
+    font-weight: 700;
+}
+
+.no_view {
+    display: none;
+}
+
+@media (min-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        gap: 20px;
+    }
+
+    .image_major_mobile {
+        display: none;
+    }
+
+    .image_major_desktop {
+        display: block;
+    }
+
+    .image_major {
+        flex-basis: 300px;
+    }
+
+    .container_child_body_container {
+        flex-basis: 500px;
+    }
+
+    .input_text_form, .boton_form {
+        font-size: 1em;
+        padding: 10px;
+    }
 }
