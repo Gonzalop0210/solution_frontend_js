@@ -17,12 +17,11 @@ boton_suscribe.addEventListener("click", function (event) {
     var correoIngresado = input_suscribe.value;
 
     if (validateEmail(correoIngresado)) {
-        window.open('confirm.html', '_blanck');
+        window.open('confirm.html', '_blank');
     } else {
-        no_view.classList.toggle('no_view');
+        no_view.classList.remove('no_view');
         input_suscribe.style.outline = '2px solid hsl(4, 100%, 67%)';
         input_suscribe.style.border = '1px solid hsl(4, 100%, 67%)';
-        input_suscribe.insertRule("::placeholder { color: hsl(4, 100%, 67%); }", 0);
         event.preventDefault();
     }
 });
